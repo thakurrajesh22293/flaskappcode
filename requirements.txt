@@ -2,3 +2,8 @@ Flask==2.0.1
 Flask-MySQLdb==0.2.0
 requests==2.26.0
 Werkzeug==2.2.2
+
+# Add the following for DevSecOps:
+pytest==7.0.1       # For testing
+truffleHog==3.7.0   # For secret scanning
+pytest-html==3.1.1  # For HTML test reports (optional for better test reporting)
